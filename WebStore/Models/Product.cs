@@ -4,14 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace WebStore.Models
+namespace ShoppingCartGroupChallenge.Models
 {
     public class Product
     {
-        public int ProductId { get; set; }
-        public string ProductName { get; set; }
-        public string ProductDescription { get; set; }
-        public string ProductImage { get; set; }
-        public float ProductPrice { get; set; }
+        public int GameID { get; set; }
+        public string GameName { get; set; }
+        public string GameDescription { get; set; }
+        public string GameImage { get; set; }
+        public float GamePrice { get; set; }
     }
 }
