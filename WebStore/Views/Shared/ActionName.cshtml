@@ -13,11 +13,10 @@
     <div>The controller is: @ViewBag.Controller</div>
     <div>The action is: @ViewBag.Action</div>
     <div>
-        @Html.ActionLink("This is an outgoing URL",
-            "Index", "Home", null, new {
-                id = "myAnchorID",
-                @class = "myCSSClass"
-            })
+        @Html.ActionLink("This is an outgoing URL", "Index", "Home",
+            "https", "myserver.mydomain.com", " myFragmentName",
+            new { id = "MyId" },
+            new { id = "myAnchorID", @class = "myCSSClass" })
     </div>
 </body>
 </html>
