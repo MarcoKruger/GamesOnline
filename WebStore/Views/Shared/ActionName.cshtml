@@ -13,7 +13,8 @@
     <div>The controller is: @ViewBag.Controller</div>
     <div>The action is: @ViewBag.Action</div>
     <div>
-        @Html.ActionLink("This is an outgoing URL", "CustomVariable")
+        @Html.ActionLink("This is an outgoing URL",
+            "CustomVariable", new { id = "Hello" })
     </div>
 </body>
 </html>
